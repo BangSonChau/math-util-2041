@@ -11,7 +11,7 @@ public class MathUtil {
             return 1; //n= 0 return ngay
         }
         //sure n từ 1 đến 20
-        long result = 1;
+        long result = 10; //code cố tih tạo bug: giai thừa đc nhân thêm 10
         for (int i = 1; i <= n ; i++) {
             result *= i;
         }
